@@ -29,3 +29,5 @@ is.integer(x) #numeric data got converted to integer value and now this command 
 Question 5: 
 x <- sqrt(2)
 x*x ==2 #returns FALSE
+x*x - 2 #returns the difference in both the values, (1.414*1.414)-2 gives the approximate difference
+all.equal(x*x,2) #returns TRUE as it doesn't consider the rounding off values
