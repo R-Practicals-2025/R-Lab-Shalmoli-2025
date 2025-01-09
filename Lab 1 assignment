@@ -1,0 +1,31 @@
+Question 1: Arithmetic operations
+2.7/2 = 1.35
+2.7%/%2 = 1 #returns the integer quotient
+2.7%%2 = 0.7 #returns the remainder
+10+5i/2 = 10+2.5i
+round (2.5) = 2
+round (-2.5) = -2
+2%/%4-1 = -1 #returns quotient that is 0 and then subtract -1
+3*2**2 = 12 #returns the exponent value of 2**2 and then multiply with 3
+7%/%4 = 1
+7%%4 = 3 #returns remainder
+-7%%4 = 1 #next number divisible by 4 is -8, so the difference between -7 and -8 is 1
+ trunc(5.7) = 5 #returns the value before decimal
+ trunc(-5.7)= -5
+ Question 2: 
+let num = 5.7;
+print ("The value using floor function is= floor(num+0.5)")
+Question 3:
+let a=1, b=2, c=4;
+a&b; #returns TRUE since both of them are non zero number
+!a<b | c>b #returns TRUE since any one of the conditions gets satisfied
+Question 4:
+let x=c(5,3,7,8)
+is.integer(x) #returns FALSE since all the numbers are floating variables like 5.00,3.00,7.00 and 8.00
+is.numeric(x) #returns TRUE since all the numbers are numeric or floating variables
+x<- integer(x) #Error in integer(x) : invalid 'length' argument
+x<-as.integer(x)
+is.integer(x) #numeric data got converted to integer value and now this command returns TRUE
+Question 5: 
+x <- sqrt(2)
+x*x ==2 #returns FALSE
